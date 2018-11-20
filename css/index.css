@@ -7,16 +7,33 @@
     margin-top: 40px;
     height: fit-content;
     color: white;
+    padding: 20px;
 
 }
 
-#footer{
+/* #footer{
     height: fit-content;
     background-color: wheat;
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 20px;
+} */
+
+html { height: 100%; }
+body {
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height] 
+}
+#footer { 
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:fit-content;
+    background-color: wheat;
+    text-align: center;
+    padding: 20px; 
+
 }
 
 #img{
